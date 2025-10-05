@@ -15,7 +15,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title="Propensity Scoring", page_icon="💷⚖️", layout="wide")
+st.set_page_config(page_title="Propensity Scoring", page_icon="💷⚖️🛒", layout="wide")
 
 # ---------------------------
 # Load packaged artifacts
@@ -131,7 +131,7 @@ def build_features(
 # ---------------------------
 # UI
 # ---------------------------
-st.title("🛒 Propensity-to-Buy Scoring")
+st.title("💷⚖️🛒 Propensity-to-Buy Scoring")
 st.caption("Loads your packaged model & builds features: Segments, Recency, Age bins, Age transforms.")
 
 with st.sidebar:
