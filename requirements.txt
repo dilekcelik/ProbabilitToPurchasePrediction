@@ -1,7 +1,4 @@
-# --- App/UI ---
 streamlit==1.36.0
-
-# --- Model + preprocessing ---
 xgboost==2.0.3
 scikit-learn==1.4.2
 pandas==2.2.2
