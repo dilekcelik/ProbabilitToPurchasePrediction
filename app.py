@@ -182,7 +182,7 @@ with tab1:
         colA, colB = st.columns([1,2])
         with colA:
             st.metric("Predicted Probability", f"{proba:.3f}")
-            st.metric("Decision Threshold", f"{threshold:.2f}")
+            #st.metric("Decision Threshold", f"{threshold:.2f}")
             st.metric("Predicted Class", "1 (Likely) ✅" if pred==1 else "0 (Unlikely) ❌")
             if show_segments:
                 st.metric("Band", band_label(proba, low_cut, high_cut))
