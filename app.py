@@ -145,7 +145,7 @@ with st.sidebar:
     st.markdown(f"**Model features:** {len(feature_columns)}")
     st.code("\n".join(feature_columns), language="text")
 
-def band_label(p, low=0.3, high=0.75):
+def band_label(p, low=0.3, high=0.7):
     if p >= high: return "High"
     if p >= low:  return "Medium"
     return "Low"
