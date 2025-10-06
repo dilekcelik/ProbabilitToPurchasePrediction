@@ -199,7 +199,7 @@ with tab2:
     st.subheader("Batch Scoring")
     st.write("Upload CSV with columns: **age, priorinterest, segment (A/B/C), recency (Active/Dormant/Inactive)**")
     ex = pd.DataFrame({
-        "age":[30,41,63],
+        "age":[22,41,63],
         "priorinterest":[0,1,0],
         "segment":["B","A","C"],
         "recency":["Dormant","Active","Inactive"]
